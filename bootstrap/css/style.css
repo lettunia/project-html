@@ -1,0 +1,171 @@
+.background{
+  background-image: url();
+}
+
+.background-1{
+  height: 167vh;
+  padding: 0px;
+  transform: rotate(270deg);
+  position: relative;
+  right: 140px;
+  width: 100%;
+}
+.background-2{
+  height: 167vh;
+  padding: 0px;
+  transform: rotate(270deg);
+  position: relative;
+  right: 140px;
+  width: 100%;
+}
+#background-cont{
+  background-color: black;
+  height: 100vh;
+  padding: 0px;
+}
+.carousel {
+    position: relative;
+    height: 163vh;
+    transform: rotate(90deg);
+}
+#position-bottom-controller{
+  right: 38%;
+  width: 50px;
+}
+#position-top-controller{
+  left: -2%;
+  width: 50px;
+}
+#position-indicators{
+  transform: rotate(90deg);
+  position: absolute;
+  bottom: 50%;
+}
+img{
+  margin: 0px;
+  vertical-align: middle;
+  transform: rotate(270deg);
+}
+.column{
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  }
+.information-1{
+  margin: 0px;
+  padding: 0px;
+  background-color: rgba(0, 0, 255, 0.56);
+  position: absolute;
+  width: 47%;
+  height: 35%;
+  top: 47%;
+  left: 30px;
+  border-radius: 8px;
+  border: solid black;
+  font-family: sans-serif;
+  text-decoration: white;
+  color: white;
+}
+.information-2{
+  margin: 0px;
+  padding: 0px;
+  background-color: rgba(249, 248, 243, 0.62);
+  position: absolute;
+  width: 47%;
+  height: 35%;
+  top: 47%;
+  left: 30px;
+  border-radius: 8px;
+  border: solid black;
+  font-family: sans-serif;
+  color: #555555;
+}
+.text{
+  transform: rotate(270deg);
+}
+h3{
+  position: absolute;
+  top: 64%;
+  right: 62%;
+}
+h4{
+  font-size: 15px;
+  position: absolute;
+  top: 78%;
+  right: 66%;
+}
+p{
+  margin: 0 0 10px;
+  position: absolute;
+  top: 69%;
+  right: 38%;
+}
+.profile{
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  width: 54%;
+  height: 41%;
+  bottom: 57%;
+  left: 30px;
+}
+.logo{
+
+}
+.student{
+    position: absolute;
+    height: 111%;
+    top: -4%;
+    right: 34%;
+}
+.names-1{
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  width: 14%;
+  height: 105%;
+  bottom: -3%;
+  right: 15%;
+  background-color: rgba(51, 122, 183, 0.88);
+  border-radius: 5px;
+  border: solid gray;
+}
+h2{
+  margin: 0 0 10px;
+  position: fixed;
+  top: 21%;
+  right: 42%;
+  font-size: 26px;
+  text-align: center;
+  font-family: monospace;
+}
+.names-2{
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  width: 14%;
+  height: 105%;
+  bottom: -3%;
+  right: 15%;
+  background-color: rgba(255, 255, 255, 0.76);;
+  border-radius: 5px;
+  border: solid gray;
+}
+.icon-fb{
+  position: absolute;
+  top: 79%;
+  right: 5%;
+}
+.icon-tw{
+  position: absolute;
+  top: 12%;
+  right: 5%;
+}
+.icon-ig{
+  position: absolute;
+  top: 45%;
+  right: 5%;
+}
+
+
+
