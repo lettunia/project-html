@@ -38,8 +38,10 @@
 }
 #position-indicators{
   transform: rotate(90deg);
-  position: absolute;
+  position: fixed;
   bottom: 50%;
+  left: 92%;
+  cursor: pointer;
 }
 img{
   margin: 0px;
@@ -109,14 +111,32 @@ p{
   bottom: 57%;
   left: 30px;
 }
-.logo{
-
-}
 .student{
     position: absolute;
-    height: 111%;
+    height: 100%;
     top: -4%;
-    right: 34%;
+    right: 28%;
+    margin: 0px;
+    padding: 0px;
+}
+h2{
+  margin: 0px;
+  position: fixed;
+  top: 21%;
+  right: 42%;
+  font-size: 26px;
+  text-align: center;
+  font-family: monospace;
+  padding: 0px;
+}
+#special-text{
+   right: 40%;
+}
+#special-text-2{
+   right: 38%;
+}
+#special-text-3{
+  right: 37%;
 }
 .names-1{
   margin: 0px;
@@ -129,15 +149,6 @@ p{
   background-color: rgba(51, 122, 183, 0.88);
   border-radius: 5px;
   border: solid gray;
-}
-h2{
-  margin: 0 0 10px;
-  position: fixed;
-  top: 21%;
-  right: 42%;
-  font-size: 26px;
-  text-align: center;
-  font-family: monospace;
 }
 .names-2{
   margin: 0px;
