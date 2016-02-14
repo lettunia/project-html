@@ -36,13 +36,6 @@
   left: -2%;
   width: 50px;
 }
-#position-indicators{
-  transform: rotate(90deg);
-  position: fixed;
-  bottom: 50%;
-  left: 92%;
-  cursor: pointer;
-}
 img{
   margin: 0px;
   vertical-align: middle;
@@ -177,6 +170,33 @@ h2{
   top: 45%;
   right: 5%;
 }
+.carousel-indicators{
+  display: inherit;
+  position: fixed;
+  bottom: 50%;
+  left: 92%;
+  cursor: pointer;
+  transform: rotate(90deg);
 
-
-
+}
+.carousel-indicators li{
+  overflow: hidden;
+  display: inline-block;
+ width: 15px;
+ height: 15px;
+ text-align: -webkit-right;
+ transform: rotate(270deg);
+}
+.letter-name{
+  font-size: 10px;
+  color: white;
+  position: initial;
+  top: 1px;
+  text-align: inherit;
+  text-decoration: initial;
+  position: relative;
+}
+.body-carousel{
+  width: 100%;
+  height: 100vh;
+}
