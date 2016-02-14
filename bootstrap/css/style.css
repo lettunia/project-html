@@ -159,16 +159,19 @@ h2{
   position: absolute;
   top: 79%;
   right: 5%;
+  -webkit-filter: invert(62%);
 }
 .icon-tw{
   position: absolute;
   top: 12%;
   right: 5%;
+  -webkit-filter: invert(62%);
 }
 .icon-ig{
   position: absolute;
   top: 45%;
   right: 5%;
+  -webkit-filter: invert(62%);
 }
 .carousel-indicators{
   display: inherit;
@@ -199,4 +202,9 @@ h2{
 .body-carousel{
   width: 100%;
   height: 100vh;
+}
+.carousel-inner {
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
 }
